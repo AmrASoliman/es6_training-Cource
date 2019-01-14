@@ -1,4 +1,7 @@
-const pmt = require(formula - pmt);
+import './node_modules/formula-pmt/PMT.js';
+import PMT from './node_modules/formula-pmt/PMT.js';
+
+//var pmt = require('formula-pmt');
 // let str = `ASUJSDHFI
 // SAFSDF`;
 
@@ -12,7 +15,6 @@ const pmt = require(formula - pmt);
 // let greating = `Hello There, ${name}. your age is ${age}`;
 
 // console.log(greating);
-
 // let count = 5;
 // let price = 0.25;
 // let name = 'Cat';
@@ -222,5 +224,4 @@ const car = {
 };
 
 console.log(car);
-
-console.log(pmt(0.01, 60, -1000000, 200000, 1));
+console.log(PMT(0.01, 60, -1000000, 200000, 1));
